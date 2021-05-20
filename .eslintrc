@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "cypress"
+  ],
+  "extends": [
+    "eslint-config-airbnb-base",
+    "airbnb/rules/react",
+    "airbnb/hooks",
+    "plugin:prettier/recommended",
+    "plugin:cypress/recommended"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    // Disable prop-types as we use TypeScript for type checking
+    "react/prop-types": "off",
+    "linebreak-style": ["error", "unix"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    // needed for NextJS's jsx without react import
+    "react/react-in-jsx-scope": "off",
+    "import/no-unresolved": "off",
+    "react/jsx-props-no-spreading": "off"
+  }
+}

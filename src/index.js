@@ -1,3 +1,4 @@
-import QuestionFlow from './'
+import QuestionFlow from './QuestionFlow'
+import Badge from "./Badge";
 
-export { QuestionFlow }
+export { QuestionFlow, Badge }
