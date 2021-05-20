@@ -1,0 +1,25 @@
+@import 'scss/variables';
+@import 'scss/mixins/rem';
+
+.wrapper {
+  position: fixed;
+  top: rem(82);
+  right: rem(20);
+  z-index: 1020;
+
+  .upbtn {
+    background: rgba(240, 243, 252, 1);
+    line-height: rem(17);
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 400;
+    width: rem(40);
+    height: rem(40);
+    padding: rem(3) rem(11);
+    font-size: rem(14);
+  }
+
+  .text {
+    color: $cyan;
+  }
+}

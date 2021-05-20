@@ -1,0 +1,58 @@
+// Overriding bootstrap variables
+// Please check overridable variables with !default flag in `~bootstrap/scss/variables` file
+
+// Colors
+$blue: #1168cc;
+$red: #e60012;
+$green: #21c794;
+$orange: #ff9000;
+$pink: #fdeaeb;
+$lighter-blue: #fafbff;
+$light-blue: #f0f3fc;
+$royal-blue: #1067cc;
+$mid-blue: #c3d9f2;
+$cyan: #97aac3;
+$gray-base: #e2e3ed;
+
+$text-muted: #9a9a9a;
+$body-color: #555;
+
+// Extend Bootstrap themes
+$theme-colors: (
+  'cyan': $cyan,
+  'lighter-blue': $lighter-blue,
+  'light-blue': $light-blue,
+  'black': #000,
+);
+
+$font-size-base: 1rem;
+$font-size-llg: $font-size-base * 1.5;
+$font-size-lg: $font-size-base * 1.125;
+$font-size-sm: $font-size-base * 0.875;
+$font-size-xs: $font-size-base * 0.75;
+
+$font-weight-normal: 400;
+$font-weight-bold: 500;
+$font-weight-bolder: 700;
+$font-family-base: 'Rubik', 'Kanit';
+$grid-gutter-width: 20px;
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+$border-radius: 0.4rem;
+$input-btn-padding-x: 0.6rem;
+$btn-padding-y: 0.44rem;
+$btn-padding-y-lg: 0.85rem;
+
+// Spacing
+$spacer: 1.25rem;
+$spacers: (6: ($spacer * 6));
+
+// Buttons
+$btn-font-weight: $font-weight-bold;
+
+// Forms
+$input-height: 3.75rem;
+$input-height-sm: 2.5rem;
+$custom-checkbox-indicator-border-radius: 0.2rem;

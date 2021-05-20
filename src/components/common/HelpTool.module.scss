@@ -1,0 +1,16 @@
+@import "../../scss/variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.help-tool__icon {
+  color: $royal-blue;
+}
+
+@include media-breakpoint-down(lg) {
+  .help-tool__icon {
+    position: absolute;
+    top: 5px;
+    right: -15px;
+  }
+}
