@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "90efa645-355f-4abb-bba6-868b6ac104cf",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_1",
+      "name": {
+        "en": "product_en1",
+        "th": "product_th1"
+      }
+    },
+    "plan": {
+      "code": "plan_1",
+      "name": {
+        "en": "plan_en1",
+        "th": "plan_th1"
+      }
+    },
+    "category": "disease",
+    "subCategory": "elite",
+    "premium": 40000,
+    "rating": 1,
+    "features": [
+      "Pay Upon Diagnosis",
+      "Tax Deduction"
+    ],
+    "insurer": {
+      "code": "insurer_1",
+      "name": {
+        "en": "insurer_en1",
+        "th": "insurer_th1"
+      }
+    },
+    "max_coverage": 35500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 92000,
+      "ipdopd_non_intensive_care": 91500,
+      "ipdopd_hospital_expense": 17500,
+      "ci_max_coverage": 62000,
+      "pa_max_coverage": 68000
+    }
+  },
+  {
+    "id": "1790e5a4-5e46-4ecd-b38d-b3a1a44e3c2e",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_2",
+      "name": {
+        "en": "product_en2",
+        "th": "product_th2"
+      }
+    },
+    "plan": {
+      "code": "plan_2",
+      "name": {
+        "en": "plan_en2",
+        "th": "plan_th2"
+      }
+    },
+    "category": "pa",
+    "subCategory": "medicalExpense",
+    "premium": 12000,
+    "rating": 1,
+    "features": [
+      "Medical expense",
+      "Loss of life compensation"
+    ],
+    "insurer": {
+      "code": "insurer_2",
+      "name": {
+        "en": "insurer_en2",
+        "th": "insurer_th2"
+      }
+    },
+    "max_coverage": 47500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 64500,
+      "ipdopd_non_intensive_care": 87000,
+      "ipdopd_hospital_expense": 69500,
+      "ci_max_coverage": 19000,
+      "pa_max_coverage": 24500
+    }
+  },
+  {
+    "id": "d886661c-ea5e-4af7-9e08-6dd77ed28d40",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_3",
+      "name": {
+        "en": "product_en3",
+        "th": "product_th3"
+      }
+    },
+    "plan": {
+      "code": "plan_3",
+      "name": {
+        "en": "plan_en3",
+        "th": "plan_th3"
+      }
+    },
+    "category": "pa",
+    "subCategory": "extremeSportAccidents",
+    "premium": 36500,
+    "rating": 5,
+    "features": [
+      "Loss of life compensation",
+      "Loss of life compensation"
+    ],
+    "insurer": {
+      "code": "insurer_3",
+      "name": {
+        "en": "insurer_en3",
+        "th": "insurer_th3"
+      }
+    },
+    "max_coverage": 42000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 97500,
+      "ipdopd_non_intensive_care": 79500,
+      "ipdopd_hospital_expense": 53000,
+      "ci_max_coverage": 45000,
+      "pa_max_coverage": 73000
+    }
+  },
+  {
+    "id": "d5cc8c42-e5ef-4a85-abd5-5b4e8c49e469",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_4",
+      "name": {
+        "en": "product_en4",
+        "th": "product_th4"
+      }
+    },
+    "plan": {
+      "code": "plan_4",
+      "name": {
+        "en": "plan_en4",
+        "th": "plan_th4"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "children",
+    "premium": 35500,
+    "rating": 2,
+    "features": [
+      "Tax Deduction",
+      "Tax Deduction"
+    ],
+    "insurer": {
+      "code": "insurer_4",
+      "name": {
+        "en": "insurer_en4",
+        "th": "insurer_th4"
+      }
+    },
+    "max_coverage": 40000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 6500,
+      "ipdopd_non_intensive_care": 97000,
+      "ipdopd_hospital_expense": 36000,
+      "ci_max_coverage": 98000,
+      "pa_max_coverage": 53000
+    }
+  },
+  {
+    "id": "6e3bf0f5-84a9-4ac9-b821-055a8bc8b223",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_5",
+      "name": {
+        "en": "product_en5",
+        "th": "product_th5"
+      }
+    },
+    "plan": {
+      "code": "plan_5",
+      "name": {
+        "en": "plan_en5",
+        "th": "plan_th5"
+      }
+    },
+    "category": "pa",
+    "subCategory": "lostOfLife",
+    "premium": 42000,
+    "rating": 5,
+    "features": [
+      "Loss of life compensation",
+      "Medical expense"
+    ],
+    "insurer": {
+      "code": "insurer_5",
+      "name": {
+        "en": "insurer_en5",
+        "th": "insurer_th5"
+      }
+    },
+    "max_coverage": 7500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 96000,
+      "ipdopd_non_intensive_care": 35000,
+      "ipdopd_hospital_expense": 53500,
+      "ci_max_coverage": 7000,
+      "pa_max_coverage": 26500
+    }
+  },
+  {
+    "id": "f4dc6240-7a42-4b63-894b-cc21e3a0c39c",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_6",
+      "name": {
+        "en": "product_en6",
+        "th": "product_th6"
+      }
+    },
+    "plan": {
+      "code": "plan_6",
+      "name": {
+        "en": "plan_en6",
+        "th": "plan_th6"
+      }
+    },
+    "category": "disease",
+    "subCategory": "student",
+    "premium": 28000,
+    "rating": 5,
+    "features": [
+      "Tax Deduction",
+      "Pay Upon Diagnosis"
+    ],
+    "insurer": {
+      "code": "insurer_6",
+      "name": {
+        "en": "insurer_en6",
+        "th": "insurer_th6"
+      }
+    },
+    "max_coverage": 47000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 72000,
+      "ipdopd_non_intensive_care": 39000,
+      "ipdopd_hospital_expense": 3500,
+      "ci_max_coverage": 68000,
+      "pa_max_coverage": 7500
+    }
+  },
+  {
+    "id": "cdfcae19-8e96-47c0-8bd0-d4902683ae0d",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_7",
+      "name": {
+        "en": "product_en7",
+        "th": "product_th7"
+      }
+    },
+    "plan": {
+      "code": "plan_7",
+      "name": {
+        "en": "plan_en7",
+        "th": "plan_th7"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "salaryMan",
+    "premium": 5500,
+    "rating": 5,
+    "features": [
+      "IPD/OPD",
+      "IPD/OPD"
+    ],
+    "insurer": {
+      "code": "insurer_7",
+      "name": {
+        "en": "insurer_en7",
+        "th": "insurer_th7"
+      }
+    },
+    "max_coverage": 21500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 38000,
+      "ipdopd_non_intensive_care": 11500,
+      "ipdopd_hospital_expense": 62000,
+      "ci_max_coverage": 63500,
+      "pa_max_coverage": 65500
+    }
+  },
+  {
+    "id": "4516f8c0-9688-467a-b7f2-c5f891883294",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_8",
+      "name": {
+        "en": "product_en8",
+        "th": "product_th8"
+      }
+    },
+    "plan": {
+      "code": "plan_8",
+      "name": {
+        "en": "plan_en8",
+        "th": "plan_th8"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "elite",
+    "premium": 26000,
+    "rating": 2,
+    "features": [
+      "Tax Deduction",
+      "IPD/OPD"
+    ],
+    "insurer": {
+      "code": "insurer_8",
+      "name": {
+        "en": "insurer_en8",
+        "th": "insurer_th8"
+      }
+    },
+    "max_coverage": 23000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 36500,
+      "ipdopd_non_intensive_care": 55500,
+      "ipdopd_hospital_expense": 14500,
+      "ci_max_coverage": 68000,
+      "pa_max_coverage": 22000
+    }
+  },
+  {
+    "id": "cb8d1afb-682d-40bf-b627-122dbdb249e0",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_9",
+      "name": {
+        "en": "product_en9",
+        "th": "product_th9"
+      }
+    },
+    "plan": {
+      "code": "plan_9",
+      "name": {
+        "en": "plan_en9",
+        "th": "plan_th9"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "children",
+    "premium": 26500,
+    "rating": 2,
+    "features": [
+      "Tax Deduction",
+      "IPD"
+    ],
+    "insurer": {
+      "code": "insurer_9",
+      "name": {
+        "en": "insurer_en9",
+        "th": "insurer_th9"
+      }
+    },
+    "max_coverage": 12000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 63500,
+      "ipdopd_non_intensive_care": 13000,
+      "ipdopd_hospital_expense": 32500,
+      "ci_max_coverage": 41500,
+      "pa_max_coverage": 71500
+    }
+  },
+  {
+    "id": "9391a671-1ed8-4c56-a2ed-0db1b46a1a51",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_10",
+      "name": {
+        "en": "product_en10",
+        "th": "product_th10"
+      }
+    },
+    "plan": {
+      "code": "plan_10",
+      "name": {
+        "en": "plan_en10",
+        "th": "plan_th10"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "children",
+    "premium": 40000,
+    "rating": 1,
+    "features": [
+      "Co-pay",
+      "Tax Deduction"
+    ],
+    "insurer": {
+      "code": "insurer_10",
+      "name": {
+        "en": "insurer_en10",
+        "th": "insurer_th10"
+      }
+    },
+    "max_coverage": 7500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 51500,
+      "ipdopd_non_intensive_care": 72000,
+      "ipdopd_hospital_expense": 9500,
+      "ci_max_coverage": 3000,
+      "pa_max_coverage": 48000
+    }
+  },
+  {
+    "id": "08245888-3040-4cac-a000-3353de0426cc",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_11",
+      "name": {
+        "en": "product_en11",
+        "th": "product_th11"
+      }
+    },
+    "plan": {
+      "code": "plan_11",
+      "name": {
+        "en": "plan_en11",
+        "th": "plan_th11"
+      }
+    },
+    "category": "disease",
+    "subCategory": "expats",
+    "premium": 4500,
+    "rating": 2,
+    "features": [
+      "Tax Deduction",
+      "Tax Deduction"
+    ],
+    "insurer": {
+      "code": "insurer_11",
+      "name": {
+        "en": "insurer_en11",
+        "th": "insurer_th11"
+      }
+    },
+    "max_coverage": 9000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 18500,
+      "ipdopd_non_intensive_care": 68500,
+      "ipdopd_hospital_expense": 33000,
+      "ci_max_coverage": 67500,
+      "pa_max_coverage": 34000
+    }
+  },
+  {
+    "id": "29cc892e-f44b-4146-8619-ba9b0b96c433",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_12",
+      "name": {
+        "en": "product_en12",
+        "th": "product_th12"
+      }
+    },
+    "plan": {
+      "code": "plan_12",
+      "name": {
+        "en": "plan_en12",
+        "th": "plan_th12"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "expats",
+    "premium": 33500,
+    "rating": 3,
+    "features": [
+      "Pay Upon Diagnosis",
+      "Worldwide Coverage"
+    ],
+    "insurer": {
+      "code": "insurer_12",
+      "name": {
+        "en": "insurer_en12",
+        "th": "insurer_th12"
+      }
+    },
+    "max_coverage": 1000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 37000,
+      "ipdopd_non_intensive_care": 89000,
+      "ipdopd_hospital_expense": 62500,
+      "ci_max_coverage": 83500,
+      "pa_max_coverage": 37500
+    }
+  },
+  {
+    "id": "e2ae0844-a0bf-45e2-b6fe-9062801aca94",
+    "hotDeal": true,
+    "product": {
+      "code": "prod_13",
+      "name": {
+        "en": "product_en13",
+        "th": "product_th13"
+      }
+    },
+    "plan": {
+      "code": "plan_13",
+      "name": {
+        "en": "plan_en13",
+        "th": "plan_th13"
+      }
+    },
+    "category": "pa",
+    "subCategory": "lostOfLife",
+    "premium": 7000,
+    "rating": 4,
+    "features": [
+      "Loss of life compensation",
+      "Medical expense"
+    ],
+    "insurer": {
+      "code": "insurer_13",
+      "name": {
+        "en": "insurer_en13",
+        "th": "insurer_th13"
+      }
+    },
+    "max_coverage": 35500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 5000,
+      "ipdopd_non_intensive_care": 86500,
+      "ipdopd_hospital_expense": 40500,
+      "ci_max_coverage": 52500,
+      "pa_max_coverage": 99500
+    }
+  },
+  {
+    "id": "0b31bfbd-5edb-4954-9943-999b0ff4742b",
+    "hotDeal": true,
+    "product": {
+      "code": "prod_14",
+      "name": {
+        "en": "product_en14",
+        "th": "product_th14"
+      }
+    },
+    "plan": {
+      "code": "plan_14",
+      "name": {
+        "en": "plan_en14",
+        "th": "plan_th14"
+      }
+    },
+    "category": "pa",
+    "subCategory": "medicalExpense",
+    "premium": 28500,
+    "rating": 2,
+    "features": [
+      "Loss of life compensation",
+      "Medical expense"
+    ],
+    "insurer": {
+      "code": "insurer_14",
+      "name": {
+        "en": "insurer_en14",
+        "th": "insurer_th14"
+      }
+    },
+    "max_coverage": 5500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 53500,
+      "ipdopd_non_intensive_care": 10500,
+      "ipdopd_hospital_expense": 14500,
+      "ci_max_coverage": 73500,
+      "pa_max_coverage": 68000
+    }
+  },
+  {
+    "id": "812157cc-c603-40f1-ba40-31f33b1bbb83",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_15",
+      "name": {
+        "en": "product_en15",
+        "th": "product_th15"
+      }
+    },
+    "plan": {
+      "code": "plan_15",
+      "name": {
+        "en": "plan_en15",
+        "th": "plan_th15"
+      }
+    },
+    "category": "disease",
+    "subCategory": "elder",
+    "premium": 17000,
+    "rating": 4,
+    "features": [
+      "Tax Deduction",
+      "Pay Upon Diagnosis"
+    ],
+    "insurer": {
+      "code": "insurer_15",
+      "name": {
+        "en": "insurer_en15",
+        "th": "insurer_th15"
+      }
+    },
+    "max_coverage": 16000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 6000,
+      "ipdopd_non_intensive_care": 35500,
+      "ipdopd_hospital_expense": 43000,
+      "ci_max_coverage": 62000,
+      "pa_max_coverage": 47000
+    }
+  },
+  {
+    "id": "f527d663-9447-4416-a736-57f45b10bed8",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_16",
+      "name": {
+        "en": "product_en16",
+        "th": "product_th16"
+      }
+    },
+    "plan": {
+      "code": "plan_16",
+      "name": {
+        "en": "plan_en16",
+        "th": "plan_th16"
+      }
+    },
+    "category": "pa",
+    "subCategory": "lostOfLife",
+    "premium": 25500,
+    "rating": 4,
+    "features": [
+      "Medical expense",
+      "Loss of life compensation"
+    ],
+    "insurer": {
+      "code": "insurer_16",
+      "name": {
+        "en": "insurer_en16",
+        "th": "insurer_th16"
+      }
+    },
+    "max_coverage": 40500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 84000,
+      "ipdopd_non_intensive_care": 99000,
+      "ipdopd_hospital_expense": 16000,
+      "ci_max_coverage": 97000,
+      "pa_max_coverage": 25000
+    }
+  },
+  {
+    "id": "0ffa11dc-4f86-44f0-b909-8b10272c7e9f",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_17",
+      "name": {
+        "en": "product_en17",
+        "th": "product_th17"
+      }
+    },
+    "plan": {
+      "code": "plan_17",
+      "name": {
+        "en": "plan_en17",
+        "th": "plan_th17"
+      }
+    },
+    "category": "disease",
+    "subCategory": "elite",
+    "premium": 39500,
+    "rating": 5,
+    "features": [
+      "Pay Upon Diagnosis",
+      "Tax Deduction"
+    ],
+    "insurer": {
+      "code": "insurer_17",
+      "name": {
+        "en": "insurer_en17",
+        "th": "insurer_th17"
+      }
+    },
+    "max_coverage": 14500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 45500,
+      "ipdopd_non_intensive_care": 35000,
+      "ipdopd_hospital_expense": 77500,
+      "ci_max_coverage": 76000,
+      "pa_max_coverage": 21000
+    }
+  },
+  {
+    "id": "9535f9ff-84c0-48e2-9f0e-b4141ed1dcd4",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_18",
+      "name": {
+        "en": "product_en18",
+        "th": "product_th18"
+      }
+    },
+    "plan": {
+      "code": "plan_18",
+      "name": {
+        "en": "plan_en18",
+        "th": "plan_th18"
+      }
+    },
+    "category": "disease",
+    "subCategory": "salaryMan",
+    "premium": 2500,
+    "rating": 1,
+    "features": [
+      "Pay Upon Diagnosis",
+      "Pay Upon Diagnosis"
+    ],
+    "insurer": {
+      "code": "insurer_18",
+      "name": {
+        "en": "insurer_en18",
+        "th": "insurer_th18"
+      }
+    },
+    "max_coverage": 43500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 88500,
+      "ipdopd_non_intensive_care": 23000,
+      "ipdopd_hospital_expense": 63000,
+      "ci_max_coverage": 74500,
+      "pa_max_coverage": 50500
+    }
+  },
+  {
+    "id": "83388d44-0b23-4621-8ed6-cd54fa758237",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_19",
+      "name": {
+        "en": "product_en19",
+        "th": "product_th19"
+      }
+    },
+    "plan": {
+      "code": "plan_19",
+      "name": {
+        "en": "plan_en19",
+        "th": "plan_th19"
+      }
+    },
+    "category": "disease",
+    "subCategory": "children",
+    "premium": 3000,
+    "rating": 3,
+    "features": [
+      "Tax Deduction",
+      "Tax Deduction"
+    ],
+    "insurer": {
+      "code": "insurer_19",
+      "name": {
+        "en": "insurer_en19",
+        "th": "insurer_th19"
+      }
+    },
+    "max_coverage": 7500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 56000,
+      "ipdopd_non_intensive_care": 83000,
+      "ipdopd_hospital_expense": 79500,
+      "ci_max_coverage": 15000,
+      "pa_max_coverage": 67500
+    }
+  },
+  {
+    "id": "4dfaa516-b615-424c-9ec2-824b9915d646",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_20",
+      "name": {
+        "en": "product_en20",
+        "th": "product_th20"
+      }
+    },
+    "plan": {
+      "code": "plan_20",
+      "name": {
+        "en": "plan_en20",
+        "th": "plan_th20"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "salaryMan",
+    "premium": 38000,
+    "rating": 3,
+    "features": [
+      "IPD/OPD",
+      "Worldwide Coverage"
+    ],
+    "insurer": {
+      "code": "insurer_20",
+      "name": {
+        "en": "insurer_en20",
+        "th": "insurer_th20"
+      }
+    },
+    "max_coverage": 34500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 43000,
+      "ipdopd_non_intensive_care": 36000,
+      "ipdopd_hospital_expense": 29500,
+      "ci_max_coverage": 62500,
+      "pa_max_coverage": 37000
+    }
+  },
+  {
+    "id": "73ce7ed9-f343-40da-8c79-afb5dcbc72f8",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_21",
+      "name": {
+        "en": "product_en21",
+        "th": "product_th21"
+      }
+    },
+    "plan": {
+      "code": "plan_21",
+      "name": {
+        "en": "plan_en21",
+        "th": "plan_th21"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "salaryMan",
+    "premium": 8500,
+    "rating": 2,
+    "features": [
+      "IPD/OPD",
+      "Worldwide Coverage"
+    ],
+    "insurer": {
+      "code": "insurer_21",
+      "name": {
+        "en": "insurer_en21",
+        "th": "insurer_th21"
+      }
+    },
+    "max_coverage": 8000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 15000,
+      "ipdopd_non_intensive_care": 35000,
+      "ipdopd_hospital_expense": 46500,
+      "ci_max_coverage": 64500,
+      "pa_max_coverage": 19000
+    }
+  },
+  {
+    "id": "f9f14f05-134f-41ef-84a0-f52144ab5bea",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_22",
+      "name": {
+        "en": "product_en22",
+        "th": "product_th22"
+      }
+    },
+    "plan": {
+      "code": "plan_22",
+      "name": {
+        "en": "plan_en22",
+        "th": "plan_th22"
+      }
+    },
+    "category": "pa",
+    "subCategory": "extremeSportAccidents",
+    "premium": 40000,
+    "rating": 1,
+    "features": [
+      "Medical expense",
+      "Medical expense"
+    ],
+    "insurer": {
+      "code": "insurer_22",
+      "name": {
+        "en": "insurer_en22",
+        "th": "insurer_th22"
+      }
+    },
+    "max_coverage": 34500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 29000,
+      "ipdopd_non_intensive_care": 99000,
+      "ipdopd_hospital_expense": 30000,
+      "ci_max_coverage": 50000,
+      "pa_max_coverage": 8000
+    }
+  },
+  {
+    "id": "bcd3bb8e-fac9-44e0-b718-73d0625a10d2",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_23",
+      "name": {
+        "en": "product_en23",
+        "th": "product_th23"
+      }
+    },
+    "plan": {
+      "code": "plan_23",
+      "name": {
+        "en": "plan_en23",
+        "th": "plan_th23"
+      }
+    },
+    "category": "pa",
+    "subCategory": "medicalExpense",
+    "premium": 45500,
+    "rating": 2,
+    "features": [
+      "Loss of life compensation",
+      "Loss of life compensation"
+    ],
+    "insurer": {
+      "code": "insurer_23",
+      "name": {
+        "en": "insurer_en23",
+        "th": "insurer_th23"
+      }
+    },
+    "max_coverage": 33000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 22000,
+      "ipdopd_non_intensive_care": 52000,
+      "ipdopd_hospital_expense": 65500,
+      "ci_max_coverage": 24000,
+      "pa_max_coverage": 6000
+    }
+  },
+  {
+    "id": "b4f31316-fedd-4f20-a2b7-35087bd0ac9f",
+    "hotDeal": true,
+    "product": {
+      "code": "prod_24",
+      "name": {
+        "en": "product_en24",
+        "th": "product_th24"
+      }
+    },
+    "plan": {
+      "code": "plan_24",
+      "name": {
+        "en": "plan_en24",
+        "th": "plan_th24"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "expats",
+    "premium": 9500,
+    "rating": 1,
+    "features": [
+      "Pay Upon Diagnosis",
+      "IPD"
+    ],
+    "insurer": {
+      "code": "insurer_24",
+      "name": {
+        "en": "insurer_en24",
+        "th": "insurer_th24"
+      }
+    },
+    "max_coverage": 12500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 91500,
+      "ipdopd_non_intensive_care": 21000,
+      "ipdopd_hospital_expense": 51000,
+      "ci_max_coverage": 18000,
+      "pa_max_coverage": 61000
+    }
+  },
+  {
+    "id": "570a77d6-b099-4537-8d3c-600ee7d09e3d",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_25",
+      "name": {
+        "en": "product_en25",
+        "th": "product_th25"
+      }
+    },
+    "plan": {
+      "code": "plan_25",
+      "name": {
+        "en": "plan_en25",
+        "th": "plan_th25"
+      }
+    },
+    "category": "disease",
+    "subCategory": "student",
+    "premium": 15000,
+    "rating": 4,
+    "features": [
+      "Tax Deduction",
+      "Tax Deduction"
+    ],
+    "insurer": {
+      "code": "insurer_25",
+      "name": {
+        "en": "insurer_en25",
+        "th": "insurer_th25"
+      }
+    },
+    "max_coverage": 45000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 79000,
+      "ipdopd_non_intensive_care": 92000,
+      "ipdopd_hospital_expense": 78500,
+      "ci_max_coverage": 93000,
+      "pa_max_coverage": 81000
+    }
+  },
+  {
+    "id": "5e88da02-ec6f-44b0-a0b4-6ee96f5c19b0",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_26",
+      "name": {
+        "en": "product_en26",
+        "th": "product_th26"
+      }
+    },
+    "plan": {
+      "code": "plan_26",
+      "name": {
+        "en": "plan_en26",
+        "th": "plan_th26"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "salaryMan",
+    "premium": 35500,
+    "rating": 5,
+    "features": [
+      "IPD/OPD",
+      "Pay Upon Diagnosis"
+    ],
+    "insurer": {
+      "code": "insurer_26",
+      "name": {
+        "en": "insurer_en26",
+        "th": "insurer_th26"
+      }
+    },
+    "max_coverage": 3500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 15000,
+      "ipdopd_non_intensive_care": 88500,
+      "ipdopd_hospital_expense": 36000,
+      "ci_max_coverage": 95500,
+      "pa_max_coverage": 45500
+    }
+  },
+  {
+    "id": "5bd03ff6-9184-4398-8bcb-1d91962908c3",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_27",
+      "name": {
+        "en": "product_en27",
+        "th": "product_th27"
+      }
+    },
+    "plan": {
+      "code": "plan_27",
+      "name": {
+        "en": "plan_en27",
+        "th": "plan_th27"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "student",
+    "premium": 16500,
+    "rating": 2,
+    "features": [
+      "Co-pay",
+      "Deductible"
+    ],
+    "insurer": {
+      "code": "insurer_27",
+      "name": {
+        "en": "insurer_en27",
+        "th": "insurer_th27"
+      }
+    },
+    "max_coverage": 11500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 43000,
+      "ipdopd_non_intensive_care": 61000,
+      "ipdopd_hospital_expense": 3500,
+      "ci_max_coverage": 72500,
+      "pa_max_coverage": 8000
+    }
+  },
+  {
+    "id": "1a763f7c-e6a7-480a-b699-254754fadc2c",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_28",
+      "name": {
+        "en": "product_en28",
+        "th": "product_th28"
+      }
+    },
+    "plan": {
+      "code": "plan_28",
+      "name": {
+        "en": "plan_en28",
+        "th": "plan_th28"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "salaryMan",
+    "premium": 10500,
+    "rating": 2,
+    "features": [
+      "Deductible",
+      "Tax Deduction"
+    ],
+    "insurer": {
+      "code": "insurer_28",
+      "name": {
+        "en": "insurer_en28",
+        "th": "insurer_th28"
+      }
+    },
+    "max_coverage": 28500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 86500,
+      "ipdopd_non_intensive_care": 68500,
+      "ipdopd_hospital_expense": 36500,
+      "ci_max_coverage": 15500,
+      "pa_max_coverage": 41000
+    }
+  },
+  {
+    "id": "ca19fc88-8d6c-44c1-84a7-988a1dc4114b",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_29",
+      "name": {
+        "en": "product_en29",
+        "th": "product_th29"
+      }
+    },
+    "plan": {
+      "code": "plan_29",
+      "name": {
+        "en": "plan_en29",
+        "th": "plan_th29"
+      }
+    },
+    "category": "pa",
+    "subCategory": "extremeSportAccidents",
+    "premium": 47500,
+    "rating": 1,
+    "features": [
+      "Loss of life compensation",
+      "Loss of life compensation"
+    ],
+    "insurer": {
+      "code": "insurer_29",
+      "name": {
+        "en": "insurer_en29",
+        "th": "insurer_th29"
+      }
+    },
+    "max_coverage": 38500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 40000,
+      "ipdopd_non_intensive_care": 28000,
+      "ipdopd_hospital_expense": 41000,
+      "ci_max_coverage": 32000,
+      "pa_max_coverage": 46000
+    }
+  },
+  {
+    "id": "88dbc251-33c8-45c6-bb3c-295750c739a7",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_30",
+      "name": {
+        "en": "product_en30",
+        "th": "product_th30"
+      }
+    },
+    "plan": {
+      "code": "plan_30",
+      "name": {
+        "en": "plan_en30",
+        "th": "plan_th30"
+      }
+    },
+    "category": "pa",
+    "subCategory": "lostOfLife",
+    "premium": 14000,
+    "rating": 2,
+    "features": [
+      "Medical expense",
+      "Medical expense"
+    ],
+    "insurer": {
+      "code": "insurer_30",
+      "name": {
+        "en": "insurer_en30",
+        "th": "insurer_th30"
+      }
+    },
+    "max_coverage": 43500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 59500,
+      "ipdopd_non_intensive_care": 4500,
+      "ipdopd_hospital_expense": 66500,
+      "ci_max_coverage": 38000,
+      "pa_max_coverage": 36500
+    }
+  },
+  {
+    "id": "3d618763-b365-481f-b379-84a9cb3c62be",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_31",
+      "name": {
+        "en": "product_en31",
+        "th": "product_th31"
+      }
+    },
+    "plan": {
+      "code": "plan_31",
+      "name": {
+        "en": "plan_en31",
+        "th": "plan_th31"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "salaryMan",
+    "premium": 0,
+    "rating": 5,
+    "features": [
+      "Worldwide Coverage",
+      "Longstay"
+    ],
+    "insurer": {
+      "code": "insurer_31",
+      "name": {
+        "en": "insurer_en31",
+        "th": "insurer_th31"
+      }
+    },
+    "max_coverage": 2500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 67000,
+      "ipdopd_non_intensive_care": 89500,
+      "ipdopd_hospital_expense": 96500,
+      "ci_max_coverage": 37500,
+      "pa_max_coverage": 13500
+    }
+  },
+  {
+    "id": "ec47b31f-da82-4e16-97af-37cb25aa31f9",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_32",
+      "name": {
+        "en": "product_en32",
+        "th": "product_th32"
+      }
+    },
+    "plan": {
+      "code": "plan_32",
+      "name": {
+        "en": "plan_en32",
+        "th": "plan_th32"
+      }
+    },
+    "category": "disease",
+    "subCategory": "salaryMan",
+    "premium": 35000,
+    "rating": 3,
+    "features": [
+      "Pay Upon Diagnosis",
+      "Pay Upon Diagnosis"
+    ],
+    "insurer": {
+      "code": "insurer_32",
+      "name": {
+        "en": "insurer_en32",
+        "th": "insurer_th32"
+      }
+    },
+    "max_coverage": 1000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 78000,
+      "ipdopd_non_intensive_care": 20500,
+      "ipdopd_hospital_expense": 59000,
+      "ci_max_coverage": 68000,
+      "pa_max_coverage": 4000
+    }
+  },
+  {
+    "id": "09fa4795-cee5-4fa6-b65b-492df142fa6a",
+    "hotDeal": true,
+    "product": {
+      "code": "prod_33",
+      "name": {
+        "en": "product_en33",
+        "th": "product_th33"
+      }
+    },
+    "plan": {
+      "code": "plan_33",
+      "name": {
+        "en": "plan_en33",
+        "th": "plan_th33"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "children",
+    "premium": 17500,
+    "rating": 3,
+    "features": [
+      "Pay Upon Diagnosis",
+      "Deductible"
+    ],
+    "insurer": {
+      "code": "insurer_33",
+      "name": {
+        "en": "insurer_en33",
+        "th": "insurer_th33"
+      }
+    },
+    "max_coverage": 5000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 53500,
+      "ipdopd_non_intensive_care": 83500,
+      "ipdopd_hospital_expense": 96500,
+      "ci_max_coverage": 57500,
+      "pa_max_coverage": 92500
+    }
+  },
+  {
+    "id": "2d5ff6f0-34f3-4725-a409-5ca97e54da15",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_34",
+      "name": {
+        "en": "product_en34",
+        "th": "product_th34"
+      }
+    },
+    "plan": {
+      "code": "plan_34",
+      "name": {
+        "en": "plan_en34",
+        "th": "plan_th34"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "salaryMan",
+    "premium": 46500,
+    "rating": 4,
+    "features": [
+      "Pay Upon Diagnosis",
+      "Worldwide Coverage"
+    ],
+    "insurer": {
+      "code": "insurer_34",
+      "name": {
+        "en": "insurer_en34",
+        "th": "insurer_th34"
+      }
+    },
+    "max_coverage": 5000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 81500,
+      "ipdopd_non_intensive_care": 8500,
+      "ipdopd_hospital_expense": 62500,
+      "ci_max_coverage": 93500,
+      "pa_max_coverage": 75500
+    }
+  },
+  {
+    "id": "f1a56cf0-b679-4beb-a81f-9fcf24362a70",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_35",
+      "name": {
+        "en": "product_en35",
+        "th": "product_th35"
+      }
+    },
+    "plan": {
+      "code": "plan_35",
+      "name": {
+        "en": "plan_en35",
+        "th": "plan_th35"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "expats",
+    "premium": 0,
+    "rating": 3,
+    "features": [
+      "Tax Deduction",
+      "Tax Deduction"
+    ],
+    "insurer": {
+      "code": "insurer_35",
+      "name": {
+        "en": "insurer_en35",
+        "th": "insurer_th35"
+      }
+    },
+    "max_coverage": 21000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 12000,
+      "ipdopd_non_intensive_care": 50000,
+      "ipdopd_hospital_expense": 84000,
+      "ci_max_coverage": 27000,
+      "pa_max_coverage": 14000
+    }
+  },
+  {
+    "id": "7a191db8-8827-4b4b-8c71-4ad937392a00",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_36",
+      "name": {
+        "en": "product_en36",
+        "th": "product_th36"
+      }
+    },
+    "plan": {
+      "code": "plan_36",
+      "name": {
+        "en": "plan_en36",
+        "th": "plan_th36"
+      }
+    },
+    "category": "pa",
+    "subCategory": "medicalExpense",
+    "premium": 29000,
+    "rating": 5,
+    "features": [
+      "Medical expense",
+      "Loss of life compensation"
+    ],
+    "insurer": {
+      "code": "insurer_36",
+      "name": {
+        "en": "insurer_en36",
+        "th": "insurer_th36"
+      }
+    },
+    "max_coverage": 6500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 3500,
+      "ipdopd_non_intensive_care": 12000,
+      "ipdopd_hospital_expense": 74000,
+      "ci_max_coverage": 88500,
+      "pa_max_coverage": 76000
+    }
+  },
+  {
+    "id": "c15c9611-786a-47f2-8d93-ba135ef994aa",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_37",
+      "name": {
+        "en": "product_en37",
+        "th": "product_th37"
+      }
+    },
+    "plan": {
+      "code": "plan_37",
+      "name": {
+        "en": "plan_en37",
+        "th": "plan_th37"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "student",
+    "premium": 11000,
+    "rating": 5,
+    "features": [
+      "Co-pay",
+      "IPD"
+    ],
+    "insurer": {
+      "code": "insurer_37",
+      "name": {
+        "en": "insurer_en37",
+        "th": "insurer_th37"
+      }
+    },
+    "max_coverage": 35000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 98500,
+      "ipdopd_non_intensive_care": 24500,
+      "ipdopd_hospital_expense": 36000,
+      "ci_max_coverage": 9500,
+      "pa_max_coverage": 96500
+    }
+  },
+  {
+    "id": "9927a55a-f8bf-4fda-a421-7838e4c94f6f",
+    "hotDeal": true,
+    "product": {
+      "code": "prod_38",
+      "name": {
+        "en": "product_en38",
+        "th": "product_th38"
+      }
+    },
+    "plan": {
+      "code": "plan_38",
+      "name": {
+        "en": "plan_en38",
+        "th": "plan_th38"
+      }
+    },
+    "category": "pa",
+    "subCategory": "lostOfLife",
+    "premium": 36000,
+    "rating": 4,
+    "features": [
+      "Medical expense",
+      "Loss of life compensation"
+    ],
+    "insurer": {
+      "code": "insurer_38",
+      "name": {
+        "en": "insurer_en38",
+        "th": "insurer_th38"
+      }
+    },
+    "max_coverage": 37500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 48500,
+      "ipdopd_non_intensive_care": 33500,
+      "ipdopd_hospital_expense": 97000,
+      "ci_max_coverage": 12500,
+      "pa_max_coverage": 35500
+    }
+  },
+  {
+    "id": "7e790dd0-54ba-4c42-9160-d65896c018ae",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_39",
+      "name": {
+        "en": "product_en39",
+        "th": "product_th39"
+      }
+    },
+    "plan": {
+      "code": "plan_39",
+      "name": {
+        "en": "plan_en39",
+        "th": "plan_th39"
+      }
+    },
+    "category": "pa",
+    "subCategory": "medicalExpense",
+    "premium": 34500,
+    "rating": 4,
+    "features": [
+      "Loss of life compensation",
+      "Medical expense"
+    ],
+    "insurer": {
+      "code": "insurer_39",
+      "name": {
+        "en": "insurer_en39",
+        "th": "insurer_th39"
+      }
+    },
+    "max_coverage": 11500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 27500,
+      "ipdopd_non_intensive_care": 94000,
+      "ipdopd_hospital_expense": 20000,
+      "ci_max_coverage": 94000,
+      "pa_max_coverage": 94500
+    }
+  },
+  {
+    "id": "9d8b74fe-1eec-43c7-8430-298d4e743e39",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_40",
+      "name": {
+        "en": "product_en40",
+        "th": "product_th40"
+      }
+    },
+    "plan": {
+      "code": "plan_40",
+      "name": {
+        "en": "plan_en40",
+        "th": "plan_th40"
+      }
+    },
+    "category": "disease",
+    "subCategory": "student",
+    "premium": 10000,
+    "rating": 2,
+    "features": [
+      "Pay Upon Diagnosis",
+      "Tax Deduction"
+    ],
+    "insurer": {
+      "code": "insurer_40",
+      "name": {
+        "en": "insurer_en40",
+        "th": "insurer_th40"
+      }
+    },
+    "max_coverage": 6000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 52000,
+      "ipdopd_non_intensive_care": 63000,
+      "ipdopd_hospital_expense": 94000,
+      "ci_max_coverage": 5500,
+      "pa_max_coverage": 92000
+    }
+  },
+  {
+    "id": "eb02a732-a647-4e99-8081-cea2365012dc",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_41",
+      "name": {
+        "en": "product_en41",
+        "th": "product_th41"
+      }
+    },
+    "plan": {
+      "code": "plan_41",
+      "name": {
+        "en": "plan_en41",
+        "th": "plan_th41"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "elite",
+    "premium": 500,
+    "rating": 4,
+    "features": [
+      "Tax Deduction",
+      "Deductible"
+    ],
+    "insurer": {
+      "code": "insurer_41",
+      "name": {
+        "en": "insurer_en41",
+        "th": "insurer_th41"
+      }
+    },
+    "max_coverage": 20000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 0,
+      "ipdopd_non_intensive_care": 50500,
+      "ipdopd_hospital_expense": 96500,
+      "ci_max_coverage": 80000,
+      "pa_max_coverage": 67000
+    }
+  },
+  {
+    "id": "6a1ab51e-e004-4619-8c5a-bae73c1449c9",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_42",
+      "name": {
+        "en": "product_en42",
+        "th": "product_th42"
+      }
+    },
+    "plan": {
+      "code": "plan_42",
+      "name": {
+        "en": "plan_en42",
+        "th": "plan_th42"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "salaryMan",
+    "premium": 46000,
+    "rating": 5,
+    "features": [
+      "Deductible",
+      "Deductible"
+    ],
+    "insurer": {
+      "code": "insurer_42",
+      "name": {
+        "en": "insurer_en42",
+        "th": "insurer_th42"
+      }
+    },
+    "max_coverage": 17000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 6000,
+      "ipdopd_non_intensive_care": 62500,
+      "ipdopd_hospital_expense": 96000,
+      "ci_max_coverage": 22000,
+      "pa_max_coverage": 0
+    }
+  },
+  {
+    "id": "d0c288d5-573c-4fe5-8986-c5e191baaa14",
+    "hotDeal": true,
+    "product": {
+      "code": "prod_43",
+      "name": {
+        "en": "product_en43",
+        "th": "product_th43"
+      }
+    },
+    "plan": {
+      "code": "plan_43",
+      "name": {
+        "en": "plan_en43",
+        "th": "plan_th43"
+      }
+    },
+    "category": "pa",
+    "subCategory": "lostOfLife",
+    "premium": 12500,
+    "rating": 1,
+    "features": [
+      "Medical expense",
+      "Medical expense"
+    ],
+    "insurer": {
+      "code": "insurer_43",
+      "name": {
+        "en": "insurer_en43",
+        "th": "insurer_th43"
+      }
+    },
+    "max_coverage": 15000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 77500,
+      "ipdopd_non_intensive_care": 29500,
+      "ipdopd_hospital_expense": 59500,
+      "ci_max_coverage": 99000,
+      "pa_max_coverage": 67000
+    }
+  },
+  {
+    "id": "2a69fd58-bc72-47f3-b3d3-99402a93efec",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_44",
+      "name": {
+        "en": "product_en44",
+        "th": "product_th44"
+      }
+    },
+    "plan": {
+      "code": "plan_44",
+      "name": {
+        "en": "plan_en44",
+        "th": "plan_th44"
+      }
+    },
+    "category": "disease",
+    "subCategory": "children",
+    "premium": 39000,
+    "rating": 2,
+    "features": [
+      "Pay Upon Diagnosis",
+      "Tax Deduction"
+    ],
+    "insurer": {
+      "code": "insurer_44",
+      "name": {
+        "en": "insurer_en44",
+        "th": "insurer_th44"
+      }
+    },
+    "max_coverage": 46000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 90500,
+      "ipdopd_non_intensive_care": 77500,
+      "ipdopd_hospital_expense": 83500,
+      "ci_max_coverage": 45000,
+      "pa_max_coverage": 41500
+    }
+  },
+  {
+    "id": "b1ddb989-1830-40af-bebd-4a49a342242e",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_45",
+      "name": {
+        "en": "product_en45",
+        "th": "product_th45"
+      }
+    },
+    "plan": {
+      "code": "plan_45",
+      "name": {
+        "en": "plan_en45",
+        "th": "plan_th45"
+      }
+    },
+    "category": "disease",
+    "subCategory": "expats",
+    "premium": 3000,
+    "rating": 4,
+    "features": [
+      "Tax Deduction",
+      "Tax Deduction"
+    ],
+    "insurer": {
+      "code": "insurer_45",
+      "name": {
+        "en": "insurer_en45",
+        "th": "insurer_th45"
+      }
+    },
+    "max_coverage": 13500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 11500,
+      "ipdopd_non_intensive_care": 59500,
+      "ipdopd_hospital_expense": 48500,
+      "ci_max_coverage": 8500,
+      "pa_max_coverage": 6000
+    }
+  },
+  {
+    "id": "d252a1a9-d27d-4269-b5da-3849e89b8c41",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_46",
+      "name": {
+        "en": "product_en46",
+        "th": "product_th46"
+      }
+    },
+    "plan": {
+      "code": "plan_46",
+      "name": {
+        "en": "plan_en46",
+        "th": "plan_th46"
+      }
+    },
+    "category": "disease",
+    "subCategory": "elder",
+    "premium": 2500,
+    "rating": 2,
+    "features": [
+      "Tax Deduction",
+      "Pay Upon Diagnosis"
+    ],
+    "insurer": {
+      "code": "insurer_46",
+      "name": {
+        "en": "insurer_en46",
+        "th": "insurer_th46"
+      }
+    },
+    "max_coverage": 23000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 16000,
+      "ipdopd_non_intensive_care": 77500,
+      "ipdopd_hospital_expense": 95000,
+      "ci_max_coverage": 57000,
+      "pa_max_coverage": 3500
+    }
+  },
+  {
+    "id": "fcf5398c-3f10-4a3d-9f31-b1c3c722d800",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_47",
+      "name": {
+        "en": "product_en47",
+        "th": "product_th47"
+      }
+    },
+    "plan": {
+      "code": "plan_47",
+      "name": {
+        "en": "plan_en47",
+        "th": "plan_th47"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "children",
+    "premium": 18000,
+    "rating": 3,
+    "features": [
+      "Tax Deduction",
+      "IPD"
+    ],
+    "insurer": {
+      "code": "insurer_47",
+      "name": {
+        "en": "insurer_en47",
+        "th": "insurer_th47"
+      }
+    },
+    "max_coverage": 12000,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 74000,
+      "ipdopd_non_intensive_care": 50500,
+      "ipdopd_hospital_expense": 0,
+      "ci_max_coverage": 32000,
+      "pa_max_coverage": 51500
+    }
+  },
+  {
+    "id": "8f4073f0-c2c0-4b65-b9c9-ecf3a5942b65",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_48",
+      "name": {
+        "en": "product_en48",
+        "th": "product_th48"
+      }
+    },
+    "plan": {
+      "code": "plan_48",
+      "name": {
+        "en": "plan_en48",
+        "th": "plan_th48"
+      }
+    },
+    "category": "pa",
+    "subCategory": "lostOfLife",
+    "premium": 3000,
+    "rating": 2,
+    "features": [
+      "Loss of life compensation",
+      "Medical expense"
+    ],
+    "insurer": {
+      "code": "insurer_48",
+      "name": {
+        "en": "insurer_en48",
+        "th": "insurer_th48"
+      }
+    },
+    "max_coverage": 13500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 88500,
+      "ipdopd_non_intensive_care": 35000,
+      "ipdopd_hospital_expense": 92500,
+      "ci_max_coverage": 74000,
+      "pa_max_coverage": 87500
+    }
+  },
+  {
+    "id": "18327634-b584-4b37-a355-eeb0c92e60a9",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_49",
+      "name": {
+        "en": "product_en49",
+        "th": "product_th49"
+      }
+    },
+    "plan": {
+      "code": "plan_49",
+      "name": {
+        "en": "plan_en49",
+        "th": "plan_th49"
+      }
+    },
+    "category": "disease",
+    "subCategory": "expats",
+    "premium": 15000,
+    "rating": 4,
+    "features": [
+      "Pay Upon Diagnosis",
+      "Tax Deduction"
+    ],
+    "insurer": {
+      "code": "insurer_49",
+      "name": {
+        "en": "insurer_en49",
+        "th": "insurer_th49"
+      }
+    },
+    "max_coverage": 5500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 55000,
+      "ipdopd_non_intensive_care": 80500,
+      "ipdopd_hospital_expense": 85500,
+      "ci_max_coverage": 3000,
+      "pa_max_coverage": 51500
+    }
+  },
+  {
+    "id": "0308df66-8bd3-41fe-b211-a7aa8a28fb40",
+    "hotDeal": false,
+    "product": {
+      "code": "prod_50",
+      "name": {
+        "en": "product_en50",
+        "th": "product_th50"
+      }
+    },
+    "plan": {
+      "code": "plan_50",
+      "name": {
+        "en": "plan_en50",
+        "th": "plan_th50"
+      }
+    },
+    "category": "ipdOpd",
+    "subCategory": "elder",
+    "premium": 35500,
+    "rating": 1,
+    "features": [
+      "Co-pay",
+      "Longstay"
+    ],
+    "insurer": {
+      "code": "insurer_50",
+      "name": {
+        "en": "insurer_en50",
+        "th": "insurer_th50"
+      }
+    },
+    "max_coverage": 500,
+    "coverage": {
+      "ipdopd_sum_insured_per_year": 81000,
+      "ipdopd_non_intensive_care": 63500,
+      "ipdopd_hospital_expense": 42000,
+      "ci_max_coverage": 87500,
+      "pa_max_coverage": 77500
+    }
+  }
+]

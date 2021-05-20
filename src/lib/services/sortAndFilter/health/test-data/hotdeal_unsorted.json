@@ -1,0 +1,92 @@
+[
+  {
+    "id": "b9395175-556a-4457-86dc-a6b0bf30bc81",
+    "premium": 34000,
+    "product": {
+      "code": "prod_1"
+    },
+    "hotDeal": true,
+    "bestSeller": true
+  },
+  {
+    "id": "ee71b0ec-d710-4f68-87a5-4d83b6664d04",
+    "premium": 27000,
+    "product": {
+      "code": "prod_2"
+    },
+    "hotDeal": true,
+    "bestSeller": true
+  },
+  {
+    "id": "438ea62c-871f-4729-b09c-06c3e972f144",
+    "premium": 28500,
+    "product": {
+      "code": "prod_3"
+    },
+    "hotDeal": false,
+    "bestSeller": false
+  },
+  {
+    "id": "d2d448dc-6270-4cd7-83a9-1efb8e85cc69",
+    "premium": 14500,
+    "product": {
+      "code": "prod_4"
+    },
+    "hotDeal": true,
+    "bestSeller": false
+  },
+  {
+    "id": "1cd5039d-b3f1-4d7f-853b-64c7d5d4c6b2",
+    "premium": 40500,
+    "product": {
+      "code": "prod_5"
+    },
+    "hotDeal": true,
+    "bestSeller": true
+  },
+  {
+    "id": "d5f8dea1-2239-4355-8812-ef6d5c0dc52e",
+    "premium": 34000,
+    "product": {
+      "code": "prod_6"
+    },
+    "hotDeal": true,
+    "bestSeller": false
+  },
+  {
+    "id": "a07554bb-8b85-4219-a281-4d33fda522e2",
+    "premium": 20000,
+    "product": {
+      "code": "prod_7"
+    },
+    "hotDeal": false,
+    "bestSeller": true
+  },
+  {
+    "id": "24181866-f3c5-415b-89b6-f828c5dd3712",
+    "premium": 42500,
+    "product": {
+      "code": "prod_8"
+    },
+    "hotDeal": true,
+    "bestSeller": false
+  },
+  {
+    "id": "ec88a411-4646-4e25-aa94-296c4b39f7f6",
+    "premium": 2000,
+    "product": {
+      "code": "prod_9"
+    },
+    "hotDeal": false,
+    "bestSeller": true
+  },
+  {
+    "id": "2e79754a-c970-4582-bb58-14e40e09e172",
+    "premium": 6000,
+    "product": {
+      "code": "prod_10"
+    },
+    "hotDeal": true,
+    "bestSeller": false
+  }
+]
