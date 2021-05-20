@@ -1,0 +1,136 @@
+@import "scss/variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+$checkbox-selected-color : #1067cc;
+$checkbox-non-selected-color : #97aac3;
+
+.checklist {
+  &__section {
+    text-align: left;
+    padding-left: 0;
+
+    h2 {
+      padding: 20px 13px;
+    }
+
+    @include media-breakpoint-down(xl) {
+      overflow: hidden;
+      border-radius: 16px;
+    }
+
+    &__question-label {
+      margin-top: 0.9rem;
+      margin-bottom: 0.4rem;
+
+      @include media-breakpoint-up(md) {
+        padding-left: 20px;
+      }
+
+      label {
+        @include media-breakpoint-down(sm) {
+          margin-bottom: 0.4rem;
+        }
+      }
+    }
+  }
+
+  &__form-check {
+    @include media-breakpoint-down(lg) {
+      padding: 10px;
+    }
+  }
+
+  &__form-check:last-child {
+    @include media-breakpoint-up(md) {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 0;
+      padding-bottom: 10px;
+    }
+  }
+
+  &__form-check [type=checkbox] {
+    display: inline;
+  }
+
+  &__form-check-label {
+    padding: 0 10% 20px 50px;
+    font-weight: 300;
+    user-select: none;
+
+    @include media-breakpoint-only(md) {
+      padding: 0 10% 10px 8%;
+    }
+
+    &::before,
+    &::after {
+      border-radius: 0.125rem !important;
+      border-color: $checkbox-non-selected-color;
+      box-shadow: 0 0 0 0.1;
+      left: 0.2rem;
+      width: 1.5rem;
+      height: 1.5rem;
+
+      @include media-breakpoint-up(md) {
+        left: 0.3rem;
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      padding: 0 11%;
+    }
+  }
+
+  /* to change the color of selected color */
+  &__form-check-input {
+    &:focus {
+      & ~ .checklist__form-check-label {
+        &::before {
+          border-color: $checkbox-non-selected-color !important;
+          box-shadow: 0 0 0 0 !important;
+        }
+
+        &::after {
+          left: 0.2rem;
+          width: 1.5rem;
+          height: 1.5rem;
+
+          @include media-breakpoint-up(md) {
+            left: 1rem;
+          }
+        }
+      }
+    }
+
+    &:active,
+    &:checked {
+      & ~ .checklist__form-check-label {
+        &::before {
+          border-radius: 0.4rem;
+          border-color: $checkbox-non-selected-color !important;
+          background-color: $checkbox-selected-color !important;
+        }
+
+        &::after {
+          left: 0.2rem;
+          width: 1.5rem;
+          height: 1.5rem;
+
+          @include media-breakpoint-up(md) {
+            left: 0.3rem;
+          }
+        }
+      }
+    }
+  }
+
+  &__custom-control {
+    min-height: 1rem;
+    box-sizing: initial;
+  }
+}

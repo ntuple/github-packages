@@ -3,8 +3,13 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = _default;
+Object.defineProperty(exports, "QuestionFlow", {
+  enumerable: true,
+  get: function get() {
+    return _["default"];
+  }
+});
 
-function _default() {
-  console.log('Hello from Github Package Registrys');
-}
+var _ = _interopRequireDefault(require("./"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }

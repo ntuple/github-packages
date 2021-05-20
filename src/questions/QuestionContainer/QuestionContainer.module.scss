@@ -1,0 +1,11 @@
+@import "../../../scss/variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.error {
+  @include media-breakpoint-up(lg) {
+    border-left: 8px solid $red;
+    transition: border-width 0.2s;
+  }
+}

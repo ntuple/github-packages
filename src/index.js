@@ -1,3 +1,3 @@
-export default function() {
-	console.log('Hello from Github Package Registrys')
-}
+import QuestionFlow from './'
+
+export { QuestionFlow }
