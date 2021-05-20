@@ -1,3 +1,1 @@
-module.exports = function() {
-	console.log('Hello from Github Package Registrys')
-}
+module.exports = require('./dist');
