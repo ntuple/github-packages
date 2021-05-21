@@ -1,0 +1,37 @@
+// Buttons
+@mixin rb-button-variant($color, $background, $hover-background, $hover-color: $color, $border : $background, $hover-border : $hover-background) {
+  @include button-variant($background, $border, $hover-background, $hover-border);
+
+  color: $color;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $hover-color;
+  }
+
+  &.disabled,
+  &:disabled {
+    color: $color;
+    background-color: $gray-500;
+    border-color: $gray-500;
+  }
+}
+
+.btn-primary {
+  @include rb-button-variant($white, $orange, #fd8000);
+}
+
+.btn-outline-primary {
+  @include rb-button-variant($orange, $white, #ffeedf, $orange, $orange);
+}
+
+.btn-outline-secondary {
+  @include rb-button-variant($body-color, $white, $light-blue, $body-color, $gray-base);
+
+  &--selected,
+  &--selected:focus {
+    color: $primary;
+    box-shadow: 0 0 0 2px $blue;
+  }
+}
