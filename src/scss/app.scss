@@ -1,0 +1,69 @@
+// global variables
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap');
+@import 'variables';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/bootstrap';
+@import '~react-step-progress-bar/styles.css';
+@import '~react-tippy/dist/tippy.css';
+@import '~rc-slider/assets/index.css';
+@import 'utils';
+
+// Mixins
+@import 'mixins/rem';
+
+// Local components
+@import 'form';
+@import 'buttons';
+@import 'progress-bar';
+
+html {
+  scroll-behavior: smooth;
+}
+
+// Hack bootstrap grid to adjust spacing on mobile view as there is no support with responsive grid size.
+@include media-breakpoint-down(sm) {
+  .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  .col,
+  [class*='col-'] {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+b,
+strong {
+  font-weight: $font-weight-bold;
+}
+
+.tippy-popper[x-placement^='top'],
+.tippy-popper[x-placement^='bottom'] {
+  .tippy-tooltip {
+    text-align: left;
+    background-color: $blue;
+  }
+}
+
+.tippy-popper[x-placement^='bottom'] [x-arrow] {
+  border-bottom-color: $blue !important;
+}
+
+.tippy-popper[x-placement^='top'] [x-arrow] {
+  border-top-color: $blue !important;
+}
+
+select {
+  appearance: none;
+  background: transparent url('#{$asset-prefix}/icons/common/select-caret.svg') no-repeat;
+  background-position-x: calc(100% - 0.625rem);
+  background-position-y: 50%;
+  border: 1px solid #dfdfdf;
+  border-radius: 0.13rem;
+  margin-right: 2rem;
+  padding-right: 1.8rem !important;
+}

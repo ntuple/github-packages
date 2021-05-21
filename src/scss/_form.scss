@@ -1,0 +1,196 @@
+@import 'scss/mixins/rem';
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+$question-bg: $lighter-blue;
+
+// Form
+label {
+  font-weight: $font-weight-bold;
+}
+
+.form-block {
+  @include media-breakpoint-up(lg) {
+    &:not(:last-child) {
+      border-bottom: 1px dotted $gray-400;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    // 65px is progress bar size
+    min-height: calc(100vh - 65px);
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .bg-question {
+    background-color: $question-bg;
+  }
+}
+
+.question-label {
+  font-size: $font-size-lg;
+
+  @include media-breakpoint-down(md) {
+    font-size: $font-size-base * 1.4;
+    width: calc(100% - 20px);
+
+    label {
+      margin-bottom: .8rem;
+    }
+  }
+}
+
+// Radio buttons && Checkboxes
+.form-check {
+  padding-left: 0;
+
+  .image-icon {
+    height: 22px;
+  }
+
+  .radio-image {
+    height: 36px;
+  }
+
+  .text-icon {
+    font-size: 20px;
+    font-weight: $font-weight-bolder;
+    color: $cyan;
+  }
+
+  [type=radio],
+  [type=checkbox] {
+    display: none;
+  }
+
+  .icon-check {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: $font-size-lg;
+    background-color: $gray-200;
+    color: white;
+    border-bottom-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+
+  .jump-to {
+    color: $body-color;
+  }
+}
+
+.form-control,
+.form-check-label {
+  color: inherit;
+  border: 1px solid $gray-200;
+  background-color: $white;
+}
+
+.form-check-label {
+  min-height: $input-height;
+  line-height: $input-line-height;
+  padding: $input-padding-y $input-padding-x;
+
+  &--sm {
+    font-size: $input-font-size-sm;
+    min-height: 40px;
+    line-height: $input-line-height-sm;
+    padding: $input-padding-y-sm $input-padding-x-sm;
+  }
+
+  &--auto-height {
+    min-height: auto;
+  }
+}
+
+.form-control.is-invalid {
+  background-color: $pink;
+  background-image: none;
+  box-shadow: 0 0 0 1px $red;
+}
+
+.form-control.is-valid {
+  background-image: none;
+  box-shadow: 0 0 0 1px $green;
+}
+
+.form-control:hover,
+[type="checkbox"]:checked + .form-check-label,
+[type="radio"]:checked + .form-check-label {
+  border-color: $blue;
+  background-color: $light-blue;
+  box-shadow: 0 0 0 1px $blue;
+
+  &.form-check-label--light-shadow {
+    box-shadow: 0 0 0 1px $blue;
+  }
+
+  .icon-check {
+    background-color: $blue;
+  }
+}
+
+.form-control-sm {
+  @include media-breakpoint-up(lg) {
+    font-size: $font-size-xs;
+  }
+  // Bootstrap form-control-sm is not support for custom checkbox.
+  &.custom-checkbox {
+    .custom-control-label::after,
+    .custom-control-label::before {
+      top: 0.15rem;
+
+      @include media-breakpoint-up(lg) {
+        top: 0.08rem;
+      }
+    }
+  }
+}
+
+.mobile-form-section {
+  &-header {
+    color: #768dac;
+    font-size: rem(18);
+    padding-top: rem(60);
+    margin-bottom: rem(10);
+  }
+}
+
+.form-section {
+  &-header {
+    position: absolute;
+    top: -20px;
+    left: 43px;
+    background-color: $white;
+    padding: 0 15px;
+  }
+
+  border-radius: 1rem;
+
+  @include media-breakpoint-up(lg) {
+    border: 2px solid $light-blue;
+  }
+}
+
+.input-calendar {
+  position: relative;
+
+  .icon-calendar {
+    color: $cyan;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    font-size: $font-size-llg;
+  }
+}

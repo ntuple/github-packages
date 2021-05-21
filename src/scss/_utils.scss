@@ -1,0 +1,27 @@
+.font-size-lg {
+  font-size: $font-size-lg;
+}
+
+.font-size-llg {
+  font-size: $font-size-llg;
+}
+
+.font-size-sm {
+  font-size: $font-size-sm;
+}
+
+.border-bottom--dashed {
+  border-bottom: 1px dashed $gray-300;
+}
+
+.bg-lg-none {
+  @include media-breakpoint-up(lg) {
+    background-color: transparent !important;
+  }
+}
+
+.w-m-100 {
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+  }
+}

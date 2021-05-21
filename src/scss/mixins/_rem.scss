@@ -1,0 +1,5 @@
+$font-size-base-pixel: 16; // base font size in the design is `16px`
+
+@function rem($px) {
+  @return #{$px / $font-size-base-pixel}rem;
+}

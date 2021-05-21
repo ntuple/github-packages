@@ -1,0 +1,51 @@
+$active-height: rem(6);
+$inactive-height: rem(4);
+
+$m-active-height: rem(4);
+$m-inactive-height: rem(2);
+
+.rf-progress-bar {
+  margin-bottom: rem(-4);
+  color: $cyan;
+
+  &-container {
+    box-shadow: 0 rem(3) rem(6) #0000000d;
+  }
+
+  &-label {
+    top: rem(-20);
+    white-space: nowrap;
+
+    @include media-breakpoint-down(md) {
+      font-size: rem(14);
+      top: rem(25);
+    }
+  }
+
+  &__icon {
+    width: rem(20);
+    height: rem(20);
+  }
+
+  @include media-breakpoint-down(md) {
+    margin-bottom: rem(38);
+  }
+
+  .RSPBprogressBar {
+    background-color: #e2e3ed;
+    height: $inactive-height;
+
+    .RSPBprogression {
+      height: $active-height;
+      top: -1px;
+    }
+
+    @include media-breakpoint-down(md) {
+      height: $m-inactive-height;
+
+      .RSPBprogression {
+        height: $m-active-height;
+      }
+    }
+  }
+}
