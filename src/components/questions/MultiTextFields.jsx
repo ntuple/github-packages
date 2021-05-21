@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { evaluateCondition } from 'lib/util';
+import { evaluateCondition } from '../../lib/util';
 import NextButton from './NextButton';
 import TextField from './TextField';
 import ComboRadioSelectBox from './ComboRadioSelectBox';

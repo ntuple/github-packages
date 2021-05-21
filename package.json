@@ -1,6 +1,6 @@
 {
   "name": "@weerapat/github-packages",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,11 @@
     "eslint": "^7.26.0"
   },
   "dependencies": {
-    "next-translate": "^1.0.6"
+    "cleave.js": "^1.6.0",
+    "formik": "^2.2.7",
+    "immer": "^9.0.2",
+    "jexl": "^2.3.0",
+    "moment": "^2.29.1",
+    "next-translate": "^0.18.0"
   }
 }

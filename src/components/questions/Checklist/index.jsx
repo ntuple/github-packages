@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import useTranslation from 'next-translate/useTranslation';
-import { evaluateCondition } from 'lib/util';
+import { evaluateCondition } from '../../../lib/util';
 import NextButton from '../NextButton';
 import ChecklistItem from './Item';
 import styles from './Checklist.module.scss';
